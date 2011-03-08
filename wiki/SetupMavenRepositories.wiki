@@ -2,7 +2,7 @@
 
 = How to set up maven repositories =
 
-In order to use jresourcemanager as a dependency you have to add to your settings.xml the next configuration:
+In order to use a Gemserk project as a dependency you have to add to your settings.xml the next configuration:
 {{{
    <profiles>
        <profile>
