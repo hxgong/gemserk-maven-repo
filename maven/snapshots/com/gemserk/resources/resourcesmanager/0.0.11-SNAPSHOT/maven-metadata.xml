@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.resources</groupId>
+  <artifactId>resourcesmanager</artifactId>
+  <version>0.0.11-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20110303150825</lastUpdated>
+  </versioning>
+</metadata>

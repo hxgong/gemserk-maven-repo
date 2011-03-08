@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>utils</artifactId>
+		<groupId>com.gemserk.utils</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.gemserk.utils</groupId>
+	<artifactId>samples</artifactId>
+	<name>Samples using common utilities</name>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>slick</groupId>
+			<artifactId>slick</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>lwjgl</groupId>
+			<artifactId>lwjgl</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gemserk.utils</groupId>
+			<artifactId>core-utils</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gemserk.utils</groupId>
+			<artifactId>jinput-utils</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gemserk.utils</groupId>
+			<artifactId>slick-utils</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.collections</groupId>
+			<artifactId>google-collections</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>java3d</groupId>
+			<artifactId>vecmath</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gemserk.componentsengine</groupId>
+			<artifactId>commons</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>jorbis</groupId>
+			<artifactId>jorbis</artifactId>
+			<version>0.0.17</version>
+		</dependency>
+
+	</dependencies>
+</project>

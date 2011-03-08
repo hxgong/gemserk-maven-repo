@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>componentsengine</artifactId>
+		<groupId>com.gemserk.componentsengine</groupId>
+		<version>0.0.8-SNAPSHOT</version>
+	</parent>
+	<groupId>com.gemserk.componentsengine</groupId>
+	<artifactId>jbulletmodule</artifactId>
+	<version>0.0.8-SNAPSHOT</version>
+	<name>Jbullet Module</name>
+	<description>Jbullet module for ComponentsEngine integration</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jmock</groupId>
+			<artifactId>jmock-junit4</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jmock</groupId>
+			<artifactId>jmock-legacy</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.jbullet</groupId>
+			<artifactId>jbullet</artifactId>
+			<version>2.72-gemserk-1</version>
+		</dependency>
+		<dependency>
+			<groupId>java3d</groupId>
+			<artifactId>vecmath</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+	</dependencies>
+</project>

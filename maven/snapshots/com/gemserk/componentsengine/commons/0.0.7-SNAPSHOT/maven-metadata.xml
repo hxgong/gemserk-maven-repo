@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>commons</artifactId>
+  <version>0.0.7-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>16</buildNumber>
+    </snapshot>
+    <lastUpdated>20100920190355</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.animation4j</groupId>
+  <artifactId>animation4j-core</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110308205529</lastUpdated>
+  </versioning>
+</metadata>

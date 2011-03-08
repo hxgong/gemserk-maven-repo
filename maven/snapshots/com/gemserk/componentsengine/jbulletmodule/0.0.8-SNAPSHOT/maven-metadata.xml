@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>jbulletmodule</artifactId>
+  <version>0.0.8-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>256</buildNumber>
+    </snapshot>
+    <lastUpdated>20101217221056</lastUpdated>
+  </versioning>
+</metadata>
