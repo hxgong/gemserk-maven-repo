@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repository-metadata>
   <version>1.0.0</version>
-  <url>https://maven.gemserk.com/nexus/content/repositories/thirdparty</url>
-  <id>thirdparty</id>
-  <name>3rd party</name>
+  <url>http://slick.cokeandcode.com/mavenrepo/</url>
+  <id>slick2d</id>
+  <name>Slick2d</name>
   <layout>maven2</layout>
   <policy>release</policy>
+  <localUrl>https://maven.gemserk.com/nexus/content/repositories/slick2d</localUrl>
 </repository-metadata>
