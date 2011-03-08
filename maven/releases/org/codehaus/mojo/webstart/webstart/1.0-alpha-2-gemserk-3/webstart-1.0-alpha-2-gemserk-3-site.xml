@@ -1,0 +1,23 @@
+<?xml version="1.0"?><project name="Maven Webstart Plug-In">
+  <bannerLeft>
+    <name>Mojo</name>
+    <src>http://mojo.codehaus.org/images/mojo_logo.png</src>
+    <href>http://mojo.codehaus.org</href>
+  </bannerLeft>
+  <bannerRight>
+    <name>Codehaus</name>
+    <src>http://mojo.codehaus.org/images/codehaus-small.png</src>
+    <href>http://www.codehaus.org</href>
+  </bannerRight>
+  <body>
+    <menu name="Modules" ref="modules">
+      <item name="Maven Webstart Pluggable JarSigner API" href="webstart-jarsigner-api/index.html" />
+      <item name="JNLP Servlet" href="http:///jdk6.dev.java.net/index.html" />
+      <item name="Pack200" href="http://java-pack200-ant-task.dev.java.net/index.html" />
+      <item name="Pack 200 support for SDK 5.0" href="webstart-pack200-jdk15/index.html" />
+      <item name="Maven Webstart Plugin" href="webstart-maven-plugin/index.html" />
+      <item name="Pack 200 support for SDK 1.4" href="webstart-pack200-jdk14/index.html" />
+    </menu>
+    <menu ref="reports" />
+  </body>
+</project>
