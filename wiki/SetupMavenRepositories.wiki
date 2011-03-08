@@ -16,6 +16,10 @@ In order to use a Gemserk project as a dependency you have to add to your settin
                    <id>googlecode.gemserk.snapshots</id>
                    <url>http://gemserk-maven-repo.googlecode.com/svn/maven/snapshots/</url>
                </repository>
+               <repository>
+                   <id>googlecode.gemserk.thirdparty</id>
+                   <url>http://gemserk-maven-repo.googlecode.com/svn/maven/thirdparty/</url>
+               </repository>
            </repositories>
        </profile>
    </profiles>
