@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>componentsengine</artifactId>
+  <version>0.0.1</version>
+  <versioning>
+    <release>0.0.8</release>
+    <versions>
+      <version>0.0.1</version>
+      <version>0.0.2</version>
+      <version>0.0.3</version>
+      <version>0.0.4</version>
+      <version>0.0.5</version>
+      <version>0.0.6</version>
+      <version>0.0.7</version>
+      <version>0.0.8</version>
+    </versions>
+    <lastUpdated>20101217221926</lastUpdated>
+  </versioning>
+</metadata>
