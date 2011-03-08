@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>scenemonitor</groupId>
+  <artifactId>sm_textdescriptor</artifactId>
+  <versioning>
+    <latest>1.20</latest>
+    <release>1.20</release>
+    <versions>
+      <version>1.20</version>
+    </versions>
+    <lastUpdated>20100208162117</lastUpdated>
+  </versioning>
+</metadata>

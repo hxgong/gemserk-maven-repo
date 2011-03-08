@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.lwjgl</groupId>
+  <artifactId>lwjgl-util-applet</artifactId>
+  <version>2.5-prujonkri</version>
+  <versioning>
+    <versions>
+      <version>2.5-prujonkri</version>
+      <version>2.6.0-GEMSERK</version>
+    </versions>
+    <lastUpdated>20101218200723</lastUpdated>
+  </versioning>
+</metadata>

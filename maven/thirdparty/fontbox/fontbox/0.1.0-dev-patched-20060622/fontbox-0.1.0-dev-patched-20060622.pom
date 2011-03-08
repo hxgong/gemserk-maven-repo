@@ -1,0 +1,7 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fontbox</groupId>
+    <artifactId>fontbox</artifactId>
+    <name>FONTBox - Java Font Handling Library</name>
+    <version>0.1.0-dev-patched-20060622</version>
+</project>
