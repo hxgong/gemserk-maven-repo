@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>groovymodule</artifactId>
+  <version>0.0.9-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>124</buildNumber>
+    </snapshot>
+    <lastUpdated>20110307172851</lastUpdated>
+  </versioning>
+</metadata>

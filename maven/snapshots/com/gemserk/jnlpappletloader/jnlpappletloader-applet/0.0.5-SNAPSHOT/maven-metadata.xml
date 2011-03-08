@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.jnlpappletloader</groupId>
+  <artifactId>jnlpappletloader-applet</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>10</buildNumber>
+    </snapshot>
+    <lastUpdated>20110302210958</lastUpdated>
+  </versioning>
+</metadata>

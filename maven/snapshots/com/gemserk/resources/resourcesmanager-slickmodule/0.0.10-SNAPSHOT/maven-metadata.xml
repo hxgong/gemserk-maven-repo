@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.resources</groupId>
+  <artifactId>resourcesmanager-slickmodule</artifactId>
+  <version>0.0.10-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>48</buildNumber>
+    </snapshot>
+    <lastUpdated>20110215175109</lastUpdated>
+  </versioning>
+</metadata>

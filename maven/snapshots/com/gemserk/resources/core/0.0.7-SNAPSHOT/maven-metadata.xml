@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.resources</groupId>
+  <artifactId>core</artifactId>
+  <version>0.0.7-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>6</buildNumber>
+    </snapshot>
+    <lastUpdated>20101202151844</lastUpdated>
+  </versioning>
+</metadata>

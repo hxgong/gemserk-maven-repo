@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>commons</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
+      <version>0.0.3-SNAPSHOT</version>
+      <version>0.0.4-SNAPSHOT</version>
+      <version>0.0.5-SNAPSHOT</version>
+      <version>0.0.6-SNAPSHOT</version>
+      <version>0.0.7-SNAPSHOT</version>
+      <version>0.0.8-SNAPSHOT</version>
+      <version>0.0.9-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110307172843</lastUpdated>
+  </versioning>
+</metadata>

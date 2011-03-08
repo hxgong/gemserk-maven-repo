@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>paulsoundsystemmodule</artifactId>
+  <version>0.0.8-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>0.0.8-SNAPSHOT</version>
+      <version>0.0.9-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110307172853</lastUpdated>
+  </versioning>
+</metadata>

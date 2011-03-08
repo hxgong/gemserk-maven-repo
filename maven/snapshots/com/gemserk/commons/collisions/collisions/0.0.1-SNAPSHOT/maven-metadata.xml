@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.commons.collisions</groupId>
+  <artifactId>collisions</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20100726002849</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.commons.animation</groupId>
+  <artifactId>animation</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20110228161952</lastUpdated>
+  </versioning>
+</metadata>

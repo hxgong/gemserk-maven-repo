@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>com.gemserk.componentsengine</groupId>
+  <artifactId>slick</artifactId>
+  <version>0.0.8-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20101005162057</lastUpdated>
+  </versioning>
+</metadata>
