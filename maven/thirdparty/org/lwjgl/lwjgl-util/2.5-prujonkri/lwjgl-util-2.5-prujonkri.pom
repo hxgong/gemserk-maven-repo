@@ -1,0 +1,14 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.lwjgl</groupId>
+  <artifactId>lwjgl-util</artifactId>
+  <version>2.5-prujonkri</version>
+  <description>Library mavenized with LWJGLMavenizer</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <version>2.5-prujonkri</version>
+    </dependency>
+  </dependencies>
+</project>
