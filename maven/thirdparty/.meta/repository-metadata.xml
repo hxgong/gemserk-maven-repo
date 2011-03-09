@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repository-metadata>
   <version>1.0.0</version>
-  <url>http://slick.cokeandcode.com/mavenrepo/</url>
-  <id>slick2d</id>
-  <name>Slick2d</name>
+  <url>http://jresourcesmanager.googlecode.com/svn/maven/repository</url>
+  <id>jresourcesmanager</id>
+  <name>Java Resources Manager</name>
   <layout>maven2</layout>
   <policy>release</policy>
-  <localUrl>https://maven.gemserk.com/nexus/content/repositories/slick2d</localUrl>
+  <localUrl>https://maven.gemserk.com/nexus/content/repositories/jresourcesmanager</localUrl>
 </repository-metadata>
