@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-deploy-plugin</artifactId>
+  <versioning>
+    <latest>2.7-GEMSERK</latest>
+    <release>2.7-GEMSERK</release>
+    <versions>
+      <version>2.7-GEMSERK</version>
+    </versions>
+    <lastUpdated>20110715013749</lastUpdated>
+  </versioning>
+</metadata>
