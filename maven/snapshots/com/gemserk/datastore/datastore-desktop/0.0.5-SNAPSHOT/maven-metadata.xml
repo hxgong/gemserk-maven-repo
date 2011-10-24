@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.datastore</groupId>
+  <artifactId>datastore-desktop</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <versioning>
+    <lastUpdated>20111024210730</lastUpdated>
+  </versioning>
+</metadata>

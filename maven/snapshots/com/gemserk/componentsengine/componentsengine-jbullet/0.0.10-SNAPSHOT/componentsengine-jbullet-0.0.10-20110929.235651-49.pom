@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>componentsengine</artifactId>
+		<groupId>com.gemserk.componentsengine</groupId>
+		<version>0.0.10-SNAPSHOT</version>
+	</parent>
+	<groupId>com.gemserk.componentsengine</groupId>
+	<artifactId>componentsengine-jbullet</artifactId>
+	<version>0.0.10-SNAPSHOT</version>
+	<name>Components Engine - JBullet Module</name>
+	<description>Components Engine Module for JBullet integration</description>
+
+	<properties>
+		<jbullet.version>2.72-gemserk-2</jbullet.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>componentsengine-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jmock</groupId>
+			<artifactId>jmock-junit4</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jmock</groupId>
+			<artifactId>jmock-legacy</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.jbullet</groupId>
+			<artifactId>jbullet</artifactId>
+			<version>${jbullet.version}</version>
+		</dependency>
+	</dependencies>
+</project>

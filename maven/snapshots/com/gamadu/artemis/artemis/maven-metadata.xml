@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gamadu.artemis</groupId>
+  <artifactId>artemis</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-GEMSERK-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110930000124</lastUpdated>
+  </versioning>
+</metadata>

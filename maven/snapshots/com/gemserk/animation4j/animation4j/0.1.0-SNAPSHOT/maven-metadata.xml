@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.animation4j</groupId>
+  <artifactId>animation4j</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20111017.215320</timestamp>
+      <buildNumber>4</buildNumber>
+    </snapshot>
+    <lastUpdated>20111017215320</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-20111017.215320-4</value>
+        <updated>20111017215320</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
