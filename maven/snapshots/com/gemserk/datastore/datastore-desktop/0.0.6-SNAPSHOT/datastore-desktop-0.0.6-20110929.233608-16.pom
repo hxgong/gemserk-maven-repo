@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.gemserk.datastore</groupId>
+		<artifactId>datastore</artifactId>
+		<version>0.0.6-SNAPSHOT</version>
+	</parent>
+	<groupId>com.gemserk.datastore</groupId>
+	<artifactId>datastore-desktop</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.6-SNAPSHOT</version>
+	<name>Datastore - Desktop backend module</name>
+
+	<profiles>
+		<profile>
+			<id>github-upload-artifacts</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.github.maven.plugin</groupId>
+						<artifactId>maven-github-plugin</artifactId>
+						<version>1.0-SNAPSHOT</version>
+						<configuration>
+							<repository>https://github.com/gemserk/datastore</repository>
+						</configuration>
+						<executions>
+							<execution>
+								<id>upload-artifacts</id>
+								<!-- would be ideal to have it on package phase, but for now javadocs 
+									and sources are created on install phase, and we need those here to be uploaded -->
+								<phase>install</phase>
+								<goals>
+									<goal>deploy</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>datastore-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>0.9.28</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+	</dependencies>
+</project>

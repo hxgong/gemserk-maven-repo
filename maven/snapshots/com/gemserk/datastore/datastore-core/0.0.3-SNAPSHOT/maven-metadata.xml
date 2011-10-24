@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.datastore</groupId>
+  <artifactId>datastore-core</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <versioning>
+    <lastUpdated>20111024210712</lastUpdated>
+  </versioning>
+</metadata>

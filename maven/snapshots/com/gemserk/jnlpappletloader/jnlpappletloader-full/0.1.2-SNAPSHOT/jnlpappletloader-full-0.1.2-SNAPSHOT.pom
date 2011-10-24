@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.gemserk.jnlpappletloader</groupId>
+		<artifactId>jnlpappletloader</artifactId>
+		<version>0.1.2-SNAPSHOT</version>
+	</parent>
+	<groupId>com.gemserk.jnlpappletloader</groupId>
+	<artifactId>jnlpappletloader-full</artifactId>
+	<version>0.1.2-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Jar with all dependencies included</name>
+	<description>Provides a jar with all dependencies included for fast loading</description>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<descriptors>
+						<descriptor>src/main/assembly/jar-with-dependencies.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.gemserk.jnlpappletloader</groupId>
+			<artifactId>jnlpappletloader-applet</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.lwjgl.lwjgl</groupId>
+			<artifactId>lwjgl_util_applet</artifactId>
+			<version>${lwjgl.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>

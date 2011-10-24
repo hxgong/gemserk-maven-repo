@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.resources</groupId>
+  <artifactId>resourcesmanager-tests</artifactId>
+  <version>0.1.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20110929.235446</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20110929235446</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.1-20110929.235446-3</value>
+        <updated>20110929235446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.1-20110929.235446-3</value>
+        <updated>20110929235446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.1-20110929.235446-3</value>
+        <updated>20110929235446</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

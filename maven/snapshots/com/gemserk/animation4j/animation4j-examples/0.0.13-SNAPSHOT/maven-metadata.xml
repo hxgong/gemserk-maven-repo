@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.animation4j</groupId>
+  <artifactId>animation4j-examples</artifactId>
+  <version>0.0.13-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20110815.232213</timestamp>
+      <buildNumber>12</buildNumber>
+    </snapshot>
+    <lastUpdated>20110815232213</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.13-20110815.232213-12</value>
+        <updated>20110815232213</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.13-20110815.232213-12</value>
+        <updated>20110815232213</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.13-20110815.232213-12</value>
+        <updated>20110815232213</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>0.0.13-20110815.232213-12</value>
+        <updated>20110815232213</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

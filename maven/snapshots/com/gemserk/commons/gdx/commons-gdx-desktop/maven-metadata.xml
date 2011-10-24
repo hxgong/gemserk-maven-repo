@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gemserk.commons.gdx</groupId>
+  <artifactId>commons-gdx-desktop</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.4-SNAPSHOT</version>
+      <version>0.0.5-SNAPSHOT</version>
+      <version>0.0.6-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20111019233801</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.dmurph</groupId>
+  <artifactId>JGoogleAnalyticsTracker</artifactId>
+  <versioning>
+    <versions>
+      <version>1.2.1-GEMSERK-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110618004757</lastUpdated>
+  </versioning>
+</metadata>

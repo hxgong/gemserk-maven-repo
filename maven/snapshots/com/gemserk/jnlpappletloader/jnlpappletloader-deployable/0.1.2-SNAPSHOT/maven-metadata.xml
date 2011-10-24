@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.jnlpappletloader</groupId>
+  <artifactId>jnlpappletloader-deployable</artifactId>
+  <version>0.1.2-SNAPSHOT</version>
+  <versioning>
+    <lastUpdated>20111024210728</lastUpdated>
+  </versioning>
+</metadata>

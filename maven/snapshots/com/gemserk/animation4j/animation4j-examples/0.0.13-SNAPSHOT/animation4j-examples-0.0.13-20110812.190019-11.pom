@@ -1,0 +1,125 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>animation4j</artifactId>
+		<groupId>com.gemserk.animation4j</groupId>
+		<version>0.0.13-SNAPSHOT</version>
+	</parent>
+	<groupId>com.gemserk.animation4j</groupId>
+	<artifactId>animation4j-examples</artifactId>
+	<version>0.0.13-SNAPSHOT</version>
+	<name>Examples module of animation4j</name>
+	<description>This module contains example applications using animation4j for the user to get started</description>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>assembly</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-assembly-plugin</artifactId>
+						<version>2.2.1</version>
+						<configuration>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<archive>
+								<manifest>
+									<mainClass>com.gemserk.animation4j.examples.ExamplesLoader</mainClass>
+								</manifest>
+							</archive>
+						</configuration>
+						<executions>
+							<execution>
+								<id>make-assembly</id>
+								<phase>package</phase>
+								<goals>
+									<goal>single</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
+			<id>github-upload-runnable</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.github.maven.plugin</groupId>
+						<artifactId>maven-github-plugin</artifactId>
+						<version>1.0-SNAPSHOT</version>
+						<configuration>
+							<repository>https://github.com/gemserk/animation4j</repository>
+							<artifacts>
+								<artifact>
+									<file>${project.build.directory}/animation4j-examples-${project.version}-jar-with-dependencies.jar</file>
+									<description>Latest runnable jar with examples of animation4j
+										library </description>
+									<override>true</override>
+									<finalName>animation4j-examples-runnable.jar</finalName>
+								</artifact>
+							</artifacts>
+						</configuration>
+						<executions>
+							<execution>
+								<id>upload-artifacts</id>
+								<phase>package</phase>
+								<goals>
+									<goal>deploy</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>animation4j-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>animation4j-componentsengine</artifactId>
+		</dependency>
+				<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>animation4j-java2d</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.gemserk.resources</groupId>
+			<artifactId>resourcesmanager-java2dmodule</artifactId>
+			<version>0.0.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.gemserk.componentsengine</groupId>
+			<artifactId>componentsengine-java2d</artifactId>
+			<version>${componentsengine.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>

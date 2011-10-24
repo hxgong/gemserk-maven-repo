@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gemserk.resources</groupId>
+  <artifactId>resourcesmanager</artifactId>
+  <version>0.0.12-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20110831.220552</timestamp>
+      <buildNumber>17</buildNumber>
+    </snapshot>
+    <lastUpdated>20110831220552</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.12-20110831.220552-17</value>
+        <updated>20110831220552</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
