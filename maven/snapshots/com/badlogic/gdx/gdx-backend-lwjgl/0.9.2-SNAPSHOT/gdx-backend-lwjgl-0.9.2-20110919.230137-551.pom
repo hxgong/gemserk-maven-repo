@@ -1,0 +1,45 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.badlogic.gdx</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.9.2-SNAPSHOT</version>
+	</parent>
+	<artifactId>gdx-backend-lwjgl</artifactId>
+	<version>0.9.2-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>Android/desktop game development framework lwjgl backend</name>
+	<description>Android/desktop game development framework lwjgl backend</description>
+	<url>http://code.google.com/p/libgdx/</url>
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>gdx-platform</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-win</classifier>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>gdx-platform</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-linux</classifier>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>gdx-platform</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-mac</classifier>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>gdx-platform</artifactId>
+			<version>${project.version}</version>
+			<classifier>natives-mac</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.lwjgl.lwjgl</groupId>
+			<artifactId>lwjgl</artifactId>
+			<version>2.8.0-GEMSERK</version>
+		</dependency>
+	</dependencies>
+</project>

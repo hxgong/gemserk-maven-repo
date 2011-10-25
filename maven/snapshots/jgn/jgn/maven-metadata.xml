@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jgn</groupId>
+  <artifactId>jgn</artifactId>
+  <versioning>
+    <latest>SNAPSHOT</latest>
+    <versions>
+      <version>SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20090817061407</lastUpdated>
+  </versioning>
+</metadata>

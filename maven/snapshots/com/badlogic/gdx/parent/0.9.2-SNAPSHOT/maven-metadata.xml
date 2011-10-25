@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.badlogic.gdx</groupId>
+  <artifactId>parent</artifactId>
+  <version>0.9.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20110919.230130</timestamp>
+      <buildNumber>426</buildNumber>
+    </snapshot>
+    <lastUpdated>20110920174539</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.9.2-20110919.230130-426</value>
+        <updated>20110919230130</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.badlogic.gdx</groupId>
+  <artifactId>gdx-platform</artifactId>
+  <version>0.9.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20111025.120048</timestamp>
+      <buildNumber>147</buildNumber>
+    </snapshot>
+    <lastUpdated>20111025120048</lastUpdated>
+  </versioning>
+</metadata>
