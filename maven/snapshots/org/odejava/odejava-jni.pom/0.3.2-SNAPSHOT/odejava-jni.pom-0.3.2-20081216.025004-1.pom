@@ -1,0 +1,139 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.odejava</groupId>
+    <artifactId>odejava-jni.pom</artifactId>
+    <packaging>pom</packaging>
+    <version>0.3.2-SNAPSHOT</version>
+    <name>OdeJava JNI Bindings</name>
+    <description>ODEJava-JNI is a JNI binding to the ODE (Open Dynamics Engine).</description>
+    <url>http://www.odejava.org/</url>
+
+    <organization>
+        <name>OdeJava Developers</name>
+        <url>http://www.odejava.org/</url>
+    </organization>
+    <developers>
+        <developer>
+            <organization>OdeJava Developers</organization>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>BSD</name>
+            <url>http://www.opensource.org/licenses/bsd-license.php</url>
+        </license>
+    </licenses>
+    <issueManagement>
+        <system>java.net</system>
+        <url>https://odejava.dev.java.net/servlets/ProjectIssues</url>
+    </issueManagement>
+
+		  <distributionManagement>
+    <repository>
+      <id>internal</id>
+      <url>https://archiva.gemserk.com/archiva/repository/internal/</url>
+    </repository>
+  </distributionManagement>
+	
+    <scm>
+        <url>
+            https://odejava.dev.java.net/source/browse/odejava/
+        </url>
+        <connection>
+            scm:cvs:pserver:guest:@cvs.dev.java.net:/cvs:odejava/odejava-jni
+        </connection>
+        <developerConnection>
+            scm:cvs:pserver:${maven.username}@cvs.dev.java.net:/cvs:odejava/odejava-jni
+        </developerConnection>
+    </scm>
+
+    <!-- so that platform specific pom can reused it -->
+    <properties>
+        <native.source.dir>../../src/c</native.source.dir>
+        <native.generated.dir>../../generated/c++</native.generated.dir>
+    </properties>
+
+    <profiles>
+
+        <profile>
+            <id>add-windows-x86-module</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                    <arch>x86</arch>
+                </os>
+            </activation>
+            <modules>
+                <module>build/swig</module>
+                <!--<module>build/windows-x86</module>-->
+            </modules>
+        </profile>
+
+        <profile>
+            <id>add-linux-x86-module</id>
+            <activation>
+                <os>
+                    <family>Linux</family>
+                    <arch>i386</arch>
+                </os>
+            </activation>
+            <modules>
+                <module>build/swig</module>
+                <!--<module>build/linux-i386</module>-->
+            </modules>
+        </profile>
+
+        <profile>
+            <id>add-linux-x64-module</id>
+            <activation>
+                <os>
+                    <family>Linux</family>
+                    <arch>amd64</arch>
+                </os>
+            </activation>
+            <modules>
+                <module>build/swig-dummy</module>
+                <!--<module>build/linux-i386</module>-->
+            </modules>
+        </profile>
+
+        <profile>
+            <id>add-mac-ppc-intel</id>
+            <activation>
+                <os>
+                    <family>mac</family>
+                </os>
+            </activation>
+            <modules>
+                <module>build/swig-dummy</module>
+                <!--<module>build/mac</module>-->
+            </modules>
+        </profile>
+
+
+        <!-- use this during release:prepare -->
+        <profile>
+            <id>all</id>
+            <activation>
+                <property>
+                    <name>platform</name>
+                    <value>all</value>
+                </property>
+            </activation>
+            <modules>
+                <!--<module>build/windows-x86</module>-->
+                <!--<module>build/linux-i386</module>-->
+                <!--<module>build/mac</module>-->
+            </modules>
+        </profile>
+
+    </profiles>
+
+    <modules>
+        <module>build</module>
+    </modules>
+
+
+</project>
