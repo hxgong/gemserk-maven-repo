@@ -1,0 +1,27 @@
+# How to set up maven repositories #
+
+In order to use a Gemserk project as a dependency you have to add to your settings.xml the next configuration:
+```
+   <profiles>
+       <profile>
+           <id>gemserk-maven-repo<id>
+           <repositories>
+               <repository>
+                   <id>googlecode.gemserk.releases</id>
+                   <url>http://gemserk-maven-repo.googlecode.com/svn/maven/releases/</url>
+               </repository>
+               <repository>
+                   <id>googlecode.gemserk.snapshots</id>
+                   <url>http://gemserk-maven-repo.googlecode.com/svn/maven/snapshots/</url>
+               </repository>
+               <repository>
+                   <id>googlecode.gemserk.thirdparty</id>
+                   <url>http://gemserk-maven-repo.googlecode.com/svn/maven/thirdparty/</url>
+               </repository>
+           </repositories>
+       </profile>
+   </profiles>
+  <activeProfiles>
+    <activeProfile>gemserk-maven-repo</activeProfile>
+  </activeProfiles>
+```
